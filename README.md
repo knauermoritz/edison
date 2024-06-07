@@ -41,7 +41,7 @@ Edison is a personal assistant that facilitates natural interaction with your co
 
 6. Start Edison:
    ```bash
-   python3 edicon.py
+   python3 edison.py
    ```
 
 ## Usage
