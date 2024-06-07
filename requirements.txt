@@ -5,3 +5,4 @@ edge_tts
 asyncio
 pillow
 bs4
+streamlit

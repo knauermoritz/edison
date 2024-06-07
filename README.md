@@ -2,29 +2,28 @@
 
 Edison is a personal assistant that facilitates natural interaction with your computer.
 
+![csv demo](images/csv_photo.png)
+![PDF demo](images/pdf_pfoto.png)
+
 ## Prerequisites
 - Python needs to be installed on your system.
 
 ## Getting Started
 
-1. Set up your GROQ API key:
-   ```bash
-   export GROQ_API_KEY=<your-api-key-here>
-   ```
-   You can obtain your API key by logging in at [GROQ Console](https://console.groq.com/login).
 
-2. Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/knauermoritz/edison.git
    cd edison
    ```
 
-3. Create a virtual environment (recommended):
+2. Create a virtual environment (recommended):
    ```bash
    python3 -m venv venv
    ```
 
-4. Activate the virtual environment:
+
+3. Activate the virtual environment:
    - On Windows:
      ```bash
      venv\Scripts\activate
@@ -33,6 +32,12 @@ Edison is a personal assistant that facilitates natural interaction with your co
      ```bash
      source venv/bin/activate
      ```
+4. Set up your GROQ API key:
+   ```bash
+   export GROQ_API_KEY=<your-api-key-here>
+   ```
+   You can obtain your API key by logging in at [GROQ Console](https://console.groq.com/login).
+
 
 5. Install the required dependencies:
    ```bash

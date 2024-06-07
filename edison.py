@@ -20,10 +20,13 @@ def print_question(text):
     print(f"{BOLD}{ITALIC}{text}{RESET}")
 
 def print_answer(text):
-    if text.strip():
+    lines = text.split('\n')
+    non_empty_lines = [line for line in lines if line.strip() != '']
+    cleaned_text = '\n'.join(non_empty_lines)
+    if cleaned_text:
         GREY = '\033[90m'
         RESET = '\033[0m'
-        print(f"{GREY}{text}{RESET}")
+        print(f"{GREY}{cleaned_text}{RESET}")
 
 def handle_answer(answer):
     try:

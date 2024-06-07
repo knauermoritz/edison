@@ -4,7 +4,7 @@ import os
 class LLM:
     def __init__(self, system_prompt, model="llama3-70b-8192"):
         self.model = model
-        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.client = Groq(api_key='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')
         self.system_prompt = system_prompt
         self.history = [{'role': 'system', 'content': system_prompt}]
 

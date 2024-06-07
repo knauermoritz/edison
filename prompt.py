@@ -1,14 +1,20 @@
 import os
 
 def list_mac_apps(app_folder='/Applications'):
-    apps = []
-    for item in os.listdir(app_folder):
-        if item.endswith('.app'):
-            apps.append(item)
-    return apps
+    try:
+      apps = []
+      for item in os.listdir(app_folder):
+          if item.endswith('.app'):
+              apps.append(item)
+      return apps
+    except:
+      return "apps not found"
 def print_desktop_path():
-    desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
-    return desktop_path
+    try:
+      desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
+      return desktop_path
+    except:
+      return "desktop path not found"
 
 system_prompt = f"""
 You are an AI called Edison. Your answers will be read out loud, so keep them short and conversational. 
