@@ -1,0 +1,7 @@
+groq
+RealtimeSTT
+pygame
+edge_tts
+asyncio
+pillow
+bs4
