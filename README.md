@@ -41,7 +41,7 @@ Edison is a personal assistant that facilitates natural interaction with your co
 
 6. Start Edison:
    ```bash
-   python3 main.py
+   python3 edicon.py
    ```
 
 ## Usage
@@ -49,3 +49,9 @@ Edison is a personal assistant that facilitates natural interaction with your co
 Once Edison is running, you can interact with it using the keyword "**EDISON**". After receiving an answer, you can continue to interact with it without the keyword for the next 15 seconds.
 
 Edison can execute terminal commands or Python code, create files, demonstrate functions, generate websites, provide information, and even generate PDFs. Explore its capabilities and enhance your productivity!
+
+### Silence Mode
+To activate silence mode, use the command:
+```bash
+python3 edicon.py -silence
+```
