@@ -53,5 +53,5 @@ Edison can execute terminal commands or Python code, create files, demonstrate f
 ### Silence Mode
 To activate silence mode, use the command:
 ```bash
-python3 edison.py -silence
+python3 edison.py -silent
 ```
